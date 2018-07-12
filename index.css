@@ -1,10 +1,12 @@
 body {
-     margin: 0px;
-     font-family: 'Roboto', sans-serif;
- }
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
 h1 {
     margin: 0;
 }
+
 .centerContainer {
     max-width: 1170px;
     margin: 0 auto;
@@ -25,13 +27,11 @@ h1 {
     width: 350px;
 }
 
-
 #firstSection {
     position: relative;
     padding-top: 18px;
     z-index: 1;
 }
-
 
 #logoItem {
     width: 35px;
@@ -42,18 +42,15 @@ h1 {
     margin-bottom: 2px;
 }
 
-.wrapper{
+.wrapper {
     display: inline-block;
-
     position: relative;
     margin-left: auto;
     margin-right: auto;
     border: 3px;
-
-
 }
 
-.hero{
+.hero {
     margin: 0 auto;
     margin-top: -91px;
     display: flex;
@@ -64,7 +61,7 @@ h1 {
 
 footer {
     background-image: url("Resources/bottomBackground.svg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     height: 630px;
@@ -126,13 +123,13 @@ footer {
     letter-spacing: 2px;
     cursor: pointer;
     outline: none;
-    box-shadow: 0 0px 5px 0 rgba(97,156,255,0.1), 0 4px 4px 0 rgba(97,156,255,0.1);
+    box-shadow: 0 0px 5px 0 rgba(97, 156, 255, 0.1), 0 4px 4px 0 rgba(97, 156, 255, 0.1);
     transition: background-color .4s ease;
 
 }
 
 .submit_button:hover {
-  background-color: #EDA238;
+    background-color: #EDA238;
 }
 
 .formTextField {
@@ -164,52 +161,52 @@ input::placeholder {
     color: #80B0FF;
 }
 
-.hero__copy{
+.hero__copy {
     position: relative;
     align-items: center;
     padding-top: 200px;
     float: left;
 }
 
-.hero__title{
-  color: black;
-  font-weight: 400;
-  font-size: 50px;
-  text-align: left;
-  max-width: 300px;
+.hero__title {
+    color: black;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: left;
+    max-width: 300px;
 }
 
-.hero__subtitle{
-      max-width: 450px;
-      color: #8787AB;
-      font-weight: 200;
-      line-height: 1.8;
-      font-size: 16px;
-      text-align: left;
+.hero__subtitle {
+    max-width: 450px;
+    color: #8787AB;
+    font-weight: 200;
+    line-height: 1.8;
+    font-size: 16px;
+    text-align: left;
 }
 
-.section__title{
-  color: black;
-  font-weight: 400;
-  font-size: 50px;
-  text-align: center;
+.section__title {
+    color: black;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
 
 }
 
-.hero__mockups{
+.hero__mockups {
     position: relative;
     justify-content: flex-end;
     float: right;
     margin-right: -130px
 }
 
-.hero__mockups__phone_1{
-margin-bottom: 100px;
+.hero__mockups__phone_1 {
+    margin-bottom: 100px;
 
 }
 
-.hero__mockups__phone_2{
-margin-top: 140px;
+.hero__mockups__phone_2 {
+    margin-top: 140px;
 
 }
 
