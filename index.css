@@ -38,3 +38,96 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+footer {
+    background-image: url("Resources/bottomBackground.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 630px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items;
+}
+
+.formText {
+    text-align: center;
+    max-width: 600px;
+    font-family: "Avenir Next", serif;
+    font-size: 42px;
+    color: white;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.betaFormList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    height: 165px;
+    justify-content: space-between;
+}
+
+.betaFormList li {
+    list-style-type: none;
+    width: 100%;
+}
+
+.betaFormList input {
+    width: 100%;
+}
+
+.bottomContainer {
+    margin-bottom: 0;
+    align-self: flex-end;
+    width: 100%;
+}
+
+.submit_button {
+    width: 100%;
+    background-color: #FFAF3E;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border-width: 0;
+    border-radius: 22px;
+    font-family: "Avenir Next", serif;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.formTextField {
+    border-width: 0;
+    background-color: transparent;
+    height: 30px;
+    outline: none;
+    caret-color: #80B0FF;
+    font-family: "Avenir Next", serif;
+    font-size: 15px;
+    border-bottom-color: #305CB5;
+    border-bottom-width: 1px;
+    color: white;
+    text-align: center;
+}
+
+input::placeholder {
+    text-align: center;
+    font-family: "Avenir Next", serif;
+    color: #80B0FF;
+    font-size: 15px;
+}
+
+.copyright {
+    margin-top: 74px;
+    margin-bottom: 30px;
+    font-family: "Avenir Next", serif;
+    font-size: 17px;
+    color: #80B0FF;
+}

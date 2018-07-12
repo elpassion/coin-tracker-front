@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="631px" viewBox="0 0 1600 631" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.48278061%" y1="1.48278061%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#154FAB" offset="0%"></stop>
+            <stop stop-color="#17256E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="82.9129464%" x2="100%" y2="82.9129457%" id="linearGradient-2">
+            <stop stop-color="#B5D1FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#5494FF" offset="49.5687319%"></stop>
+            <stop stop-color="#B5D1FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Coin-Tracker-Landing-Page" transform="translate(0.000000, -3629.000000)">
+            <g id="Footer" transform="translate(-828.000000, 3019.000000)">
+                <g id="Group-14" transform="translate(658.000000, 610.000000)">
+                    <path d="M170,4.54747351e-13 L1943.5,4.54747351e-13 L1943.5,519.5 L463.01894,749.786189 C441.281296,753.16744 419.035278,749.286262 399.726842,738.743856 L179.5,618.5 L170,4.54747351e-13 Z" id="Rectangle" fill="url(#linearGradient-1)" transform="translate(1056.750000, 375.487285) rotate(-180.000000) translate(-1056.750000, -375.487285) "></path>
+                    <g id="sparks-right" transform="translate(988.000000, 111.000000)" stroke="url(#linearGradient-2)" stroke-width="2">
+                        <polyline id="Path-6" opacity="0.100000001" points="20 501.5 89 461.5 124.5 481 229 421"></polyline>
+                        <polyline id="Path-6-Copy-5" opacity="0.400000006" points="488 200.5 557 160.5 592.5 180 697 120"></polyline>
+                        <polyline id="Path-6-Copy-7" opacity="0.400000006" points="350 440.5 419 400.5 454.5 420 559 360"></polyline>
+                        <polyline id="Path-6-Copy-6" opacity="0.400000006" transform="translate(437.107523, 110.624655) rotate(-300.000000) translate(-437.107523, -110.624655) " points="332.607523 150.874655 437.163775 91.0272228 437.107523 130.374655 541.607523 70.3746547"></polyline>
+                        <polyline id="Path-6-Copy-8" opacity="0.400000006" transform="translate(367.107523, 229.624655) rotate(-300.000000) translate(-367.107523, -229.624655) " points="262.607523 269.874655 367.163775 210.027223 367.107523 249.374655 471.607523 189.374655"></polyline>
+                        <polyline id="Path-6-Copy-9" opacity="0.100000001" transform="translate(87.107523, 139.624655) rotate(-300.000000) translate(-87.107523, -139.624655) " points="-17.3924775 179.874655 87.1637748 120.027223 87.1075225 159.374655 191.607523 99.3746547"></polyline>
+                    </g>
+                    <g id="sparks-right-copy" transform="translate(0.000000, 265.000000)" stroke="url(#linearGradient-2)" stroke-width="2">
+                        <polyline id="Path-6-Copy-7" opacity="0.400000006" points="280 331.5 349 291.5 384.5 311 489 251"></polyline>
+                        <polyline id="Path-6-Copy-6" opacity="0.400000006" transform="translate(541.107523, 220.624655) rotate(-300.000000) translate(-541.107523, -220.624655) " points="436.607523 260.874655 541.163775 201.027223 541.107523 240.374655 645.607523 180.374655"></polyline>
+                        <polyline id="Path-6-Copy-8" opacity="0.400000006" transform="translate(366.107523, 161.624655) rotate(-300.000000) translate(-366.107523, -161.624655) " points="261.607523 201.874655 366.163775 142.027223 366.107523 181.374655 470.607523 121.374655"></polyline>
+                        <polyline id="Path-6-Copy-9" opacity="0.100000001" transform="translate(87.107523, 110.624655) rotate(-300.000000) translate(-87.107523, -110.624655) " points="-17.3924775 150.874655 87.1637748 91.0272228 87.1075225 130.374655 191.607523 70.3746547"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
