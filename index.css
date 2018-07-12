@@ -30,3 +30,11 @@ body {
 #downArrow {
     margin-bottom: 2px;
 }
+
+#firstSection {
+    height: 800px;
+    padding-top: 18px;
+    background-image: url("Resources/top_background.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
