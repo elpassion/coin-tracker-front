@@ -112,7 +112,7 @@ footer {
 }
 
 .submit_button {
-    width: 100%;
+    width: 250px;
     background-color: #FFAF3E;
     padding-top: 13px;
     padding-bottom: 13px;
@@ -124,6 +124,15 @@ footer {
     font-size: 13px;
     color: white;
     letter-spacing: 2px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0px 5px 0 rgba(97,156,255,0.1), 0 4px 4px 0 rgba(97,156,255,0.1);
+    transition: background-color .4s ease;
+
+}
+
+.submit_button:hover {
+  background-color: #EDA238;
 }
 
 .formTextField {
@@ -162,7 +171,7 @@ input::placeholder {
     float: left;
 }
 
-.hero__title{;
+.hero__title{
   color: black;
   font-weight: 400;
   font-size: 50px;
@@ -177,6 +186,14 @@ input::placeholder {
       line-height: 1.8;
       font-size: 16px;
       text-align: left;
+}
+
+.section__title{
+  color: black;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+
 }
 
 .hero__mockups{
@@ -194,23 +211,6 @@ margin-bottom: 100px;
 .hero__mockups__phone_2{
 margin-top: 140px;
 
-}
-
-.hero__button{
-  height: 44px;
-  width: 215px;
-  border-radius: 100px;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 200;
-  text-decoration: none;
-  color: white;
-  background-color: #FFAF3E;
-  border-color: transparent;
-  outline: 0;
-  cursor: pointer;
-  box-shadow: 0 0px 5px 0 rgba(0,0,0,0.1), 0 4px 4px 0 rgba(0,0,0,0.1);
-  transition: background-color .4s ease;
 }
 
 
