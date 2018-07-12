@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Coin Tracker</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.serialize-object.min.js"></script>
+    <script src="index.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
@@ -29,7 +32,7 @@
     <div class="bottomContainer">
         <div class="centerContainer flexContainer">
             <span class="formText">Improve your cryptocurrency experience today.</span>
-            <form action="">
+            <form id="betaForm" action="">
                 <ul class="betaFormList">
                     <li>
                         <input class="formTextField" name="name" id="name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'" placeholder="Name">
@@ -38,7 +41,7 @@
                         <input class="formTextField" name="email" id="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" placeholder="Email">
                     </li>
                     <li>
-                        <input class="submit_button" type="submit" value="SIGN UP FOR BETA">
+                        <input id="submitFormButton" class="submit_button" type="submit" value="SIGN UP FOR BETA">
                     </li>
                 </ul>
             </form>
