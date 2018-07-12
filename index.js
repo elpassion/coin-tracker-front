@@ -1,7 +1,7 @@
 window.onload = function() {
 
     var $form = $('form#betaForm'),
-        url = 'https://script.google.com/macros/s/AKfycbwAVPw2p-ykA_pE8KbdXf7BsIF21-vH9W7R1cmDeobXyl8ytnc/exec';
+        url = 'https://script.google.com/macros/s/AKfycbx82s4QnMa2B4IKtNd-7Th-zcoiezfIRCk8X6RJrmVYplcp4w/exec';
 
     $('#submitFormButton').on('click', function(e) {
         e.preventDefault();
