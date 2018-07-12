@@ -2,6 +2,31 @@ body {
      margin: 0px;
  }
 
-#topBackgroundImage {
-    width: 100%;
+.centerContainer {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.navBarListItem {
+    list-style-type: none;
+    float: left;
+    font-family: "Avenir Next", serif;
+    color: #8787AB;
+}
+
+.navBarList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+
+#logoItem {
+    width: 35px;
+    height: 35px;
+}
+
+#downArrow {
+    margin-bottom: 2px;
 }

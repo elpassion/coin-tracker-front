@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="637px" viewBox="0 0 1600 637" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="6.30029205%" y2="98.2794436%" id="linearGradient-1">
+            <stop stop-color="#FBFCFF" offset="0%"></stop>
+            <stop stop-color="#F8F8FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="14.8607449%" y1="106.71353%" x2="84.01443%" y2="6.89092792%" id="linearGradient-2">
+            <stop stop-color="#113B83" offset="0%"></stop>
+            <stop stop-color="#164CA7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="82.9129464%" x2="100%" y2="82.9129457%" id="linearGradient-3">
+            <stop stop-color="#B5D1FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#5494FF" offset="49.5687319%"></stop>
+            <stop stop-color="#B5D1FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Coin-Tracker-Landing-Page">
+            <g id="Background" transform="translate(-266.000000, -863.000000)">
+                <g id="Group-13" transform="translate(98.000000, 541.000000)">
+                    <path d="M0,308 L1773.5,308 L1773.5,727.5 L293.01894,957.786189 C271.281296,961.16744 249.035278,957.286262 229.726842,946.743856 L9.5,826.5 L0,308 Z" id="Rectangle-Copy-2" fill="url(#linearGradient-1)"></path>
+                    <path d="M1149.4278,492.090131 L1810.78314,159.098082 C1840.87359,143.947557 1877.54865,156.058759 1892.69918,186.14921 C1896.96896,194.629427 1899.20027,203.989261 1899.21552,213.483729 L1900.16556,805.235571 L1278.35932,1164.23557 L1031.92196,737.39355 C1016.85394,711.294964 1017.73086,678.943131 1034.19058,653.699134 L1125.76253,513.25672 C1131.64429,504.235953 1139.8093,496.933043 1149.4278,492.090131 Z" id="Rectangle-7-Copy-16" fill="url(#linearGradient-2)" transform="translate(1460.684756, 658.402002) rotate(-150.000000) translate(-1460.684756, -658.402002) "></path>
+                    <g id="sparks-right" transform="translate(1174.000000, 280.000000)" stroke="url(#linearGradient-3)" stroke-width="2">
+                        <polyline id="Path-6" opacity="0.100000001" points="20 501.5 89 461.5 124.5 481 229 421"></polyline>
+                        <polyline id="Path-6-Copy-5" opacity="0.400000006" points="488 200.5 557 160.5 592.5 180 697 120"></polyline>
+                        <polyline id="Path-6-Copy-7" opacity="0.400000006" points="350 440.5 419 400.5 454.5 420 559 360"></polyline>
+                        <polyline id="Path-6-Copy-6" opacity="0.400000006" transform="translate(437.107523, 110.624655) rotate(-300.000000) translate(-437.107523, -110.624655) " points="332.607523 150.874655 437.163775 91.0272228 437.107523 130.374655 541.607523 70.3746547"></polyline>
+                        <polyline id="Path-6-Copy-8" opacity="0.400000006" transform="translate(367.107523, 229.624655) rotate(-300.000000) translate(-367.107523, -229.624655) " points="262.607523 269.874655 367.163775 210.027223 367.107523 249.374655 471.607523 189.374655"></polyline>
+                        <polyline id="Path-6-Copy-9" opacity="0.100000001" transform="translate(87.107523, 139.624655) rotate(-300.000000) translate(-87.107523, -139.624655) " points="-17.3924775 179.874655 87.1637748 120.027223 87.1075225 159.374655 191.607523 99.3746547"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
