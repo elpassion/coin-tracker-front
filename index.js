@@ -1,5 +1,17 @@
 window.onload = function () {
 
+    function animatePhones() {
+        var $phones = $('.phone');
+        var marginTop = parseInt($phones.css("margin-top").replace(/[^-\d\.]/g, ''));
+        $phones.css({"margin-top": marginTop + 50 + "px"});
+        $phones.stop(true, true).animate({
+            opacity: 1,
+            'margin-top': marginTop + "px"
+        }, 500);
+    }
+
+    animatePhones();
+
     var $form = $('form#betaForm'),
         url = 'https://script.google.com/macros/s/AKfycbx82s4QnMa2B4IKtNd-7Th-zcoiezfIRCk8X6RJrmVYplcp4w/exec';
 
@@ -12,7 +24,7 @@ window.onload = function () {
             dataType: "json",
             data: $form.serializeObject()
         });
-    })
+    });
 
     var $window = $(window);
     var $elem = $(".animation");
@@ -64,4 +76,5 @@ window.onload = function () {
             animate();
         }, delay);
     });
+
 };

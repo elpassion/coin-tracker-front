@@ -355,6 +355,10 @@ input::placeholder {
 
 }
 
+.phone {
+    opacity: 0;
+}
+
 
 
 
