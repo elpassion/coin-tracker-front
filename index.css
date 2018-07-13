@@ -25,6 +25,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     width: 350px;
+    padding: 0px;
 }
 
 #firstSection {
@@ -48,6 +49,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     border: 3px;
+    width: 1170px;
 }
 
 .hero {
@@ -59,6 +61,43 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.section__title__container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature{
+
+}
+
+.feature__title{
+    font-family: "Avenir Next", serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #231C44;
+    margin-top: 20px;
+
+}
+
+.feature__subtitle{
+    max-width: 300px;
+    color: #8787AB;
+    font-weight: 200;
+    line-height: 1.8;
+    font-size: 16px;
+    text-align: left;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
 footer {
     background-image: url("Resources/bottomBackground.svg");
     background-size: cover;
@@ -109,7 +148,7 @@ footer {
 }
 
 .submit_button {
-    width: 100%;
+    width: 250px;
     background-color: #FFAF3E;
     padding-top: 13px;
     padding-bottom: 13px;
@@ -121,6 +160,15 @@ footer {
     font-size: 13px;
     color: white;
     letter-spacing: 2px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0px 5px 0 rgba(97, 156, 255, 0.1), 0 4px 4px 0 rgba(97, 156, 255, 0.1);
+    transition: background-color .4s ease;
+
+}
+
+.submit_button:hover {
+    background-color: #EDA238;
 }
 
 .formTextField {
@@ -159,8 +207,8 @@ input::placeholder {
     float: left;
 }
 
-.hero__title {;
-    color: black;
+.hero__title {
+    color: #231C44;
     font-weight: 400;
     font-size: 50px;
     text-align: left;
@@ -174,6 +222,16 @@ input::placeholder {
     line-height: 1.8;
     font-size: 16px;
     text-align: left;
+}
+
+.section__title {
+    color: black;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    margin-left: -100px;
+    z-index: 1;
+
 }
 
 .hero__mockups {
@@ -191,23 +249,6 @@ input::placeholder {
 .hero__mockups__phone_2 {
     margin-top: 140px;
 
-}
-
-.hero__button {
-    height: 44px;
-    width: 215px;
-    border-radius: 100px;
-    font-size: 13px;
-    text-transform: uppercase;
-    font-weight: 200;
-    text-decoration: none;
-    color: white;
-    background-color: #FFAF3E;
-    border-color: transparent;
-    outline: 0;
-    cursor: pointer;
-    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-    transition: background-color .4s ease;
 }
 
 
