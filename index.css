@@ -7,6 +7,15 @@ h1 {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #5494FF;
+    font-family: "Avenir Next", serif;
+    font-size: 18;
+    font-weight: 500;
+}
+
+
 .centerContainer {
     max-width: 1170px;
     margin: 0 auto;
@@ -55,13 +64,85 @@ h1 {
 .hero {
     margin: 0 auto;
     margin-top: -91px;
+    margin-bottom: -100px;
     display: flex;
     background: url("Resources/background-right.png"), url("Resources/background-left.png");
     background-position: right top, left top;
     background-repeat: no-repeat;
 }
 
+.section__team{
+    background: url("Resources/team_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 1000px;
+}
+
+.section__story{
+    background: url("Resources/story_background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1100px;
+}
+
+.team__info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.team__subtitle{
+    max-width: 300px;
+    color: #8787AB;
+    font-weight: 200;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 0;
+
+}
+
+.team__testimonial{
+    -webkit-filter: drop-shadow(0px 20px 36px rgba(40,100,201,0.08));
+    filter: drop-shadow(0px 20px 36px rgba(40,100,201,0.08));
+    margin-top: -20px;
+}
+
+.testimonial__text{
+    max-width: 300px;
+    color: #8787AB;
+    font-weight: 200;
+    line-height: 1.6;
+    font-size: 16px;
+    text-align: left;
+    z-index: 1;
+    position: absolute;
+    padding: 35px;
+    margin: 0 auto;
+    margin-top: -25px;
+}
+
+.story__title{
+    color: #231C44;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: left;
+    max-width: 500px;
+    line-height: 1.4;
+
+}
+
+.social__icons{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.social__icon{
+    padding-right: 10px;
+}
+
 .section__title__container{
+    margin-top: 200px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -71,6 +152,7 @@ h1 {
 .feature{
 
 }
+
 
 .feature__title{
     font-family: "Avenir Next", serif;
@@ -88,6 +170,7 @@ h1 {
     line-height: 1.8;
     font-size: 16px;
     text-align: left;
+    z-index: 1;
 }
 
 .container{
@@ -100,9 +183,9 @@ h1 {
 }
 footer {
     background-image: url("Resources/bottomBackground.svg");
-    background-size: cover;
+    background-size: 100% 800px;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     height: 630px;
     padding-bottom: 0px;
     display: flex;
@@ -147,7 +230,28 @@ footer {
     width: 100%;
 }
 
+
 .submit_button {
+    width: 250px;
+    background-color: #FFAF3E;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border-width: 0;
+    border-radius: 22px;
+    font-family: "Avenir Next", serif;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0px 5px 0 rgba(97, 156, 255, 0.1), 0 4px 4px 0 rgba(97, 156, 255, 0.1);
+    transition: background-color .4s ease;
+
+}
+
+.hero_button {
     width: 250px;
     background-color: #FFAF3E;
     padding-top: 13px;
