@@ -25,6 +25,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     width: 350px;
+    padding: 0px;
 }
 
 #firstSection {
@@ -48,6 +49,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     border: 3px;
+    width: 1170px;
 }
 
 .hero {
@@ -59,6 +61,43 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.section__title__container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature{
+
+}
+
+.feature__title{
+    font-family: "Avenir Next", serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #231C44;
+    margin-top: 20px;
+
+}
+
+.feature__subtitle{
+    max-width: 300px;
+    color: #8787AB;
+    font-weight: 200;
+    line-height: 1.8;
+    font-size: 16px;
+    text-align: left;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
 footer {
     background-image: url("Resources/bottomBackground.svg");
     background-size: cover;
@@ -169,7 +208,7 @@ input::placeholder {
 }
 
 .hero__title {
-    color: black;
+    color: #231C44;
     font-weight: 400;
     font-size: 50px;
     text-align: left;
@@ -190,6 +229,8 @@ input::placeholder {
     font-weight: 400;
     font-size: 50px;
     text-align: center;
+    margin-left: -100px;
+    z-index: 1;
 
 }
 
